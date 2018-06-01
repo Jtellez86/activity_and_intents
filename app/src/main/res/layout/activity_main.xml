@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Choose your own activity"
+        android:text="@string/main_activity_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,39 +24,39 @@
         app:layout_constraintGuide_end="490dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/standardButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="@string/standard"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/singleTaskButton"
+        app:layout_constraintEnd_toStartOf="@+id/singleTopButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/singleTopButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="@string/single_top"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/standardButton"
+        app:layout_constraintBottom_toTopOf="@+id/singleInstanceButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/singleTaskButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="@string/single_task"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"/>
+        app:layout_constraintEnd_toStartOf="@+id/singleInstanceButton"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/singleInstanceButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -64,6 +64,6 @@
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3" />
+        app:layout_constraintStart_toEndOf="@+id/singleTaskButton" />
 
 </android.support.constraint.ConstraintLayout>

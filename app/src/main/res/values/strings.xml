@@ -4,4 +4,10 @@
     <string name="single_task">Single Task</string>
     <string name="single_top">Single Top</string>
     <string name="standard">Standard</string>
+    <string name="standard_title">This is a standard activity</string>
+    <string name="single_top_title">This is a single top activity</string>
+    <string name="single_task_title">This is a single task activity</string>
+    <string name="single_instance_title">This is a single instance activity</string>
+    <string name="main_activity_title">Choose your own activity</string>
+    <string name="another_one_title">Create another one of me</string>
 </resources>
